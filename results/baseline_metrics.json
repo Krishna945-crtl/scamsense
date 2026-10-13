@@ -1,0 +1,195 @@
+{
+  "model": "TF-IDF (word 1-2 + char 3-5 grams) + Logistic Regression",
+  "val": {
+    "name": "validation",
+    "n": 1176,
+    "accuracy": 0.977,
+    "macro_f1": 0.9394,
+    "scam_precision": 0.8974,
+    "scam_recall": 0.8861,
+    "scam_f1": 0.8917,
+    "legit_flagged_as_scam": 1,
+    "scams_missed_as_legit": 3,
+    "confusion_matrix": [
+      [
+        916,
+        4,
+        1
+      ],
+      [
+        6,
+        163,
+        7
+      ],
+      [
+        3,
+        6,
+        70
+      ]
+    ],
+    "per_class": {
+      "legit": {
+        "precision": 0.9903,
+        "recall": 0.9946,
+        "f1-score": 0.9924,
+        "support": 921.0
+      },
+      "spam": {
+        "precision": 0.9422,
+        "recall": 0.9261,
+        "f1-score": 0.9341,
+        "support": 176.0
+      },
+      "scam": {
+        "precision": 0.8974,
+        "recall": 0.8861,
+        "f1-score": 0.8917,
+        "support": 79.0
+      }
+    }
+  },
+  "test": {
+    "name": "test",
+    "n": 1177,
+    "accuracy": 0.9796,
+    "macro_f1": 0.9437,
+    "scam_precision": 0.9091,
+    "scam_recall": 0.8861,
+    "scam_f1": 0.8974,
+    "legit_flagged_as_scam": 1,
+    "scams_missed_as_legit": 2,
+    "confusion_matrix": [
+      [
+        920,
+        1,
+        1
+      ],
+      [
+        7,
+        163,
+        6
+      ],
+      [
+        2,
+        7,
+        70
+      ]
+    ],
+    "per_class": {
+      "legit": {
+        "precision": 0.9903,
+        "recall": 0.9978,
+        "f1-score": 0.9941,
+        "support": 922.0
+      },
+      "spam": {
+        "precision": 0.9532,
+        "recall": 0.9261,
+        "f1-score": 0.9395,
+        "support": 176.0
+      },
+      "scam": {
+        "precision": 0.9091,
+        "recall": 0.8861,
+        "f1-score": 0.8974,
+        "support": 79.0
+      }
+    }
+  },
+  "test_india_subset": {
+    "name": "test (Indian SMS only)",
+    "n": 308,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "scam_precision": 0.0,
+    "scam_recall": 0.0,
+    "scam_f1": 0.0,
+    "legit_flagged_as_scam": 0,
+    "scams_missed_as_legit": 0,
+    "confusion_matrix": [
+      [
+        197,
+        0,
+        0
+      ],
+      [
+        0,
+        111,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "per_class": {
+      "legit": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 197.0
+      },
+      "spam": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 111.0
+      },
+      "scam": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      }
+    }
+  },
+  "stress_test": {
+    "name": "India UPI stress test",
+    "n": 60,
+    "accuracy": 0.5667,
+    "macro_f1": 0.5642,
+    "scam_precision": 0.75,
+    "scam_recall": 0.36,
+    "scam_f1": 0.4865,
+    "legit_flagged_as_scam": 3,
+    "scams_missed_as_legit": 3,
+    "confusion_matrix": [
+      [
+        10,
+        7,
+        3
+      ],
+      [
+        0,
+        15,
+        0
+      ],
+      [
+        3,
+        13,
+        9
+      ]
+    ],
+    "per_class": {
+      "legit": {
+        "precision": 0.7692,
+        "recall": 0.5,
+        "f1-score": 0.6061,
+        "support": 20.0
+      },
+      "spam": {
+        "precision": 0.4286,
+        "recall": 1.0,
+        "f1-score": 0.6,
+        "support": 15.0
+      },
+      "scam": {
+        "precision": 0.75,
+        "recall": 0.36,
+        "f1-score": 0.4865,
+        "support": 25.0
+      }
+    }
+  }
+}

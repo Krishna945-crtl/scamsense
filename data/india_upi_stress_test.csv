@@ -1,0 +1,61 @@
+text,label,pattern
+"Dear customer, your bank KYC has expired and your account will be blocked today. Update PAN now at kyc-verify-bank.co/upd to avoid suspension.",scam,kyc_expiry
+"Your electricity connection will be disconnected tonight at 9.30 PM as last month bill is not updated. Call officer 9876543210 immediately.",scam,utility_disconnection
+"Congratulations! You have won Rs 25,00,000 in the KBC lucky draw. To claim, pay processing fee of Rs 12,500 to UPI id kbcprize@okaxis",scam,lottery_fee
+"Rs 5,000 refund from Income Tax Dept is pending. Approve the collect request on your UPI app and enter PIN to receive the amount.",scam,collect_request
+"Part time job! Earn Rs 3000-8000 daily by liking YouTube videos. No fees. WhatsApp HR Priya on wa.me/919876500011",scam,task_job
+"Your SIM card will be deactivated in 24 hours due to incomplete e-KYC. Call 9123456780 to re-verify with Aadhaar OTP.",scam,sim_kyc
+"FedEx: Your parcel contains illegal items and is held by Mumbai customs. Press 1 to talk to the cyber police officer.",scam,parcel_police
+"Your credit card reward points worth Rs 7,850 expire today. Redeem now: rewards-pointz.in/redeem and enter card details.",scam,reward_points
+"Dear user your Paytm wallet is suspended. Complete KYC within 2 hours by calling customer care 8001234567 or balance will be lost",scam,wallet_kyc
+"Hi Mom, I lost my phone, this is my new number. Please send Rs 15,000 urgently to my friend's UPI rahul.k@ybl, will explain later",scam,family_impersonation
+"Pre-approved instant loan of Rs 2,00,000 at 0% interest! Pay only Rs 999 registration fee to get it credited in 10 minutes.",scam,loan_fee
+"ALERT: Rs 49,999 debited from your a/c via UPI. If not done by you, click secure-bank-help.in/block to block your account now.",scam,fake_debit_alert
+"Traffic e-challan of Rs 2,000 pending against your vehicle. Pay now to avoid court case: echallan-pay.co.in/pay",scam,echallan
+"Your Netflix subscription payment failed. Update your UPI details within 24 hrs at netflix-billing-help.com to continue watching",scam,subscription
+"Invest Rs 10,000 today and get Rs 50,000 in 7 days guaranteed. Join our VIP stock tips Telegram group t.me/profitking_vip",scam,investment
+"You have received Rs 2,000 from PM Kisan scheme. Scan the QR code sent on WhatsApp and enter PIN to receive the money.",scam,qr_receive
+"Your gas connection subsidy of Rs 1,450 is on hold. Share the OTP sent to your phone with our executive to release it.",scam,otp_share
+"Bank of India: Your debit card is blocked due to suspicious activity. Reply with card number and expiry date to unblock.",scam,card_details
+"Amazon Lucky Customer! You are selected for an iPhone 16 at Rs 1. Pay delivery charge Rs 99 at amzn-lucky-offer.in",scam,fake_offer
+"Dear candidate, you are shortlisted for Data Entry job, salary 35,000/month. Pay Rs 1,500 for ID card and training kit to confirm.",scam,job_fee
+"URGENT: Your Aadhaar is linked to a money laundering case. Video call with CBI officer at 9988776655 now or face arrest.",scam,digital_arrest
+"Hello sir, I am army officer posted at border, I want to buy your sofa listed on OLX. Accept my UPI request of Rs 1 first to verify.",scam,olx_army
+"Your PF claim of Rs 38,400 is approved. To receive it, download EPFO-Support.apk and login with your UAN and password.",scam,apk_download
+"We noticed unusual login on your net banking. Verify your identity at netbanking-secure-verify.com within 15 minutes.",scam,login_alert
+"Get your free 5G SIM upgrade! Share the 6-digit OTP you just received with our agent to activate high speed data today.",scam,sim_upgrade
+"Rs 1,250.00 debited from A/c XX4521 on 07-10-26 to VPA swiggy@icici. UPI Ref 427815603921. Not you? Call 1800-123-4567 (bank helpline).",legit,debit_alert
+"Rs 25,000.00 credited to A/c XX4521 on 01-10-26 by NEFT from ACME TECH PVT LTD. Avl Bal Rs 41,230.15.",legit,salary_credit
+"123456 is your OTP for login to net banking. Valid for 5 minutes. Do not share this OTP with anyone. Bank never asks for OTP.",legit,otp
+"You have received Rs 500.00 from SURESH KUMAR (suresh.k@oksbi) on Google Pay. UPI Ref No 427912345678.",legit,upi_credit
+"Your electricity bill of Rs 1,842 for Sep 2026 is generated. Due date 20-10-2026. Pay via your bank app or the official portal.",legit,bill_notice
+"Dear customer, your loan EMI of Rs 8,450 is due on 05-11-2026. Please keep sufficient balance in A/c XX7788.",legit,emi_reminder
+"Your Amazon order #405-1182934 for 'Boat Earbuds' has been shipped and will be delivered by Sunday.",legit,order_update
+"Hi, reached home safely. Will call you after dinner.",legit,personal
+"Bro send me the notes of DBMS unit 3 when you are free",legit,personal
+"Mom, pay the tuition fee before Friday, link is on the college portal. I already told the office.",legit,personal
+"Your Aadhaar was used for authentication on 08-10-2026 10:41 for e-KYC at your bank. If not done by you, contact the official helpline.",legit,aadhaar_auth
+"Your PAN-Aadhaar link request has been received. Status will be updated on the income tax portal in 3-5 working days.",legit,gov_status
+"Booking confirmed: PNR 4521367890, Train 12728 Godavari Exp, VSKP to HYB on 15-Oct, Coach B2 Seat 34.",legit,ticket
+"Dr. Rao clinic: your appointment is confirmed for tomorrow 11:00 AM. Please carry previous reports.",legit,appointment
+"Your mutual fund SIP of Rs 2,000 has been processed successfully. Units will be allotted at today's NAV.",legit,sip
+"Meeting moved to 4 PM, please inform the team",legit,personal
+"Rs 199 recharge successful for 98XXXXXX10. Validity 28 days. Data 1.5GB/day.",legit,recharge
+"Your cheque no. 000123 for Rs 12,000 has been cleared and credited to A/c XX4521.",legit,cheque
+"Happy Diwali to you and your family! Lots of love",legit,personal
+"Your UPI PIN was changed successfully on 08-10-2026. If you did not do this, call your bank's official customer care.",legit,pin_change
+"MEGA SALE! Flat 60% off on top brands this weekend only. Shop now on the app. T&C apply.",spam,promo
+"Upgrade to our 599 plan and get Netflix Basic free for 3 months. Recharge now on the app.",spam,telecom_promo
+"Pre-approved credit card for you with lifetime free! Apply in 2 minutes on the bank app. T&C apply.",spam,card_promo
+"Diwali offer: Buy 1 Get 1 free on all kurtas at City Fashion store, MVP Colony. Valid till Sunday.",spam,retail_promo
+"Get Rs 100 cashback on your first bill payment above Rs 500 using the wallet app. Offer valid till 31 Oct.",spam,cashback_promo
+"Learn Data Science in 6 months with placement assistance! Batch starts 20 Oct. Call our counsellor for a free demo.",spam,course_promo
+"Your favourite pizza is now 30% off! Order online and use code PIZZA30. Valid on orders above Rs 399.",spam,food_promo
+"Unlimited 5G data at no extra cost on all plans above 239. Upgrade today!",spam,telecom_promo
+"Home loans starting at 8.4% p.a. Apply online and get instant in-principle approval. T&C apply.",spam,loan_promo
+"New arrivals at Trends! Shop the latest festive collection and get extra 10% off with your bank card.",spam,retail_promo
+"Play fantasy cricket for India vs Australia and win big! Join contests starting at Rs 25. T&C apply.",spam,gaming_promo
+"Gold rate today 22K Rs 7,150/g. Visit our showroom for 0% making charges on select jewellery this week.",spam,jewellery_promo
+"Book your flight tickets now and get up to Rs 2,000 off with code FLYHIGH. Limited period offer.",spam,travel_promo
+"Get a free health check-up worth Rs 1,999 with any annual health insurance plan. Call now to know more.",spam,insurance_promo
+"Stream the new blockbuster first on our app. Subscribe for just Rs 49 a month!",spam,ott_promo
